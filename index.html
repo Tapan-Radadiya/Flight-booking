@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="BookFlight.html" method="get">
+    <select name="source" id="Source"></select>
+    <select name="destination" id="Destination"></select>
+    <br><br>
+    <label for="departureDate">Departure Date</label>
+    <input type="text" id="departureDate">
+    <br><br>
+    <label for="txtSearch"> Search flight based on name</label>
+    <input type="text" id="txtSearch">
+    <button id="btnSearch" type="button"> Search Flight</button>
+    <div id="flightTable"></div>
+    <table id="FlightList">
+
+    </table>
+  </form>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
